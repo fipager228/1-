@@ -109,14 +109,28 @@ class Uno:
                 print("Ход принят!")
 
                 if my_card[0] == 'СвапКолор':
-                    print("Доступные цвета: Красный, Синий, Жёлтый, Зелёный")
-                    new_color = input("Выберите цвет: ")
-                    if new_color in icon:
-                        stol[-1][1] = new_color
-                        print(f"Цвет изменён на {new_color}")
-                    else:
-                        stol[-1][1] = 'Красный'
-                        print("Цвет установлен на Красный по умолчанию")
+
+                    while True:
+                        print("Доступные цвета: 1) Красный, 2) Синий, 3) Жёлтый, 4) Зелёный ")
+                        choice = input("Выберите цвет (1-4): ")
+
+                        if choice == '1':
+                            new_color = 'Красный'
+                            break
+                        elif choice == '2':
+                            new_color = 'Синий'
+                            break
+                        elif choice == '3':
+                            new_color = 'Жёлтый'
+                            break
+                        elif choice == '4':
+                            new_color = 'Зелёный'
+                            break
+                        else:
+                            print("Введите число от 1 до 4!")
+
+                    stol[-1][1] = new_color
+                    print(f"Цвет изменён на {new_color}")
 
                 if my_card[0] == '+2':
                     print("Вы положили +2! Следующий игрок берёт 2 карты.")
@@ -135,7 +149,12 @@ class Uno:
 
 
 p1 = Uno("Игрок 1")
+
+
 p1.strt()
 p1.kart()
-p1.bam()
-p1.bam()
+
+while True:
+    p1.bam()
+
+    p1.bam()
