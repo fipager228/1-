@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+n = [3038000, 665983, 4019606, 758400, 1164837]
+o = ['Нижегородская область', 'Марий Эл', 'Татарстан', 'Мордовия', 'Ульяновская область']
+
+plt.figure(figsize=(8, 6))
+
+plt.pie(n,labels=o,autopct='%1.1f%%',startangle=90)
+plt.legend(o,title="Регионы",loc="center left",bbox_to_anchor=(0.9, 0.5))
+
+plt.title('Население регионов рядом с Чувашией (2025)')
+
+plt.show()
