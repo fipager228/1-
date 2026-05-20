@@ -5,3 +5,6 @@ https://drive.google.com/file/d/1Y54wbTqsLJiOWofMKfHNqFB-w852Bdo2/view?usp=shari
 
 редмин :
 https://drive.google.com/file/d/1EKh45UWNk1-OCjeAnINhQOng3MAf-dCJ/view?usp=sharing
+
+пвз эко :
+https://drive.google.com/file/d/1ESoKkkN59g2l7RNPRY2-pPAFAzGyDhHq/view?usp=sharing
