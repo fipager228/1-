@@ -8,3 +8,6 @@ https://drive.google.com/file/d/1EKh45UWNk1-OCjeAnINhQOng3MAf-dCJ/view?usp=shari
 
 пвз эко :
 https://drive.google.com/file/d/1ESoKkkN59g2l7RNPRY2-pPAFAzGyDhHq/view?usp=sharing
+
+асипрайт :
+https://drive.google.com/file/d/1I1ji5buHONvNh6Z10t1a3qf0z6xtr9Yd/view?usp=sharing
